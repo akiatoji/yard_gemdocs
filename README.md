@@ -1,9 +1,19 @@
 Run Yard server to serve Gem docs
 ===========
 
-If you have Nginx running, you can run Yard server to serve rdocs for locally installed Gems.
+## Motivation
+
+I started working at an office close to the beach.  I'd go work on the beach but there is no free WiFi 
+which means you can't lookup nicely formatted rdocs.
+
+## Solution
+
+Run local Yard server to serve rdocs for locally installed Gems.
+
+## Step by step 
 
 *  Install nginx and passenger
+*  Check out this project
 *  Run 'bundle install'
 *  Add the following to nginx.conf 
 
@@ -17,6 +27,8 @@ server {
 }
 ```
 
-* Add a localhost alias ```gems.doc``` to ```/etc/hosts``` file.   
+* Add localhost alias ```gems.doc``` to ```/etc/hosts``` file.   
 * Restart nginx and access http://gems.doc:8010 to see docs.
-* You'll need to re-start nginx everytime you add new gems to your Ruby installation.
+* Now go to the beach and code all day.
+* Drinks with little umbrellas optional.
+* List of local gems are built at nginx startup.  You'll need to re-start nginx everytime new gems are added.
