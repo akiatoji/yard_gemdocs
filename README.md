@@ -6,6 +6,10 @@ Run Yard server to serve Gem docs
 I started working at an office close to the beach.  I'd go work on the beach but there is no free WiFi 
 which means you can't lookup nicely formatted rdocs.
 
+### UPDATE
+
+I quit the job at the office near the beach some time ago.  Location was great, people not so much, with some exception. 
+
 ## Solution
 
 Run local Yard server to serve rdocs for locally installed Gems.
