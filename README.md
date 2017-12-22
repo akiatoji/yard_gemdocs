@@ -8,7 +8,7 @@ which means you can't lookup nicely formatted rdocs.
 
 ### UPDATE
 
-I quit the job at the office near the beach some time ago.  Location was great, people not so much, with some exception. 
+I quit the job at the office near the beach some time ago and I use Dash for the most part.   
 
 ## Solution
 
